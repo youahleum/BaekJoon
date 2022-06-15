@@ -23,6 +23,6 @@ let arr = x.sort((a, b) => b - a);
 let b = 0;
 for (i = 0; i < x.length; i++) {
   if (input[i] === arr[0]) {
-    return console.log(arr[0], i + 1);
+    console.log(arr[0], i + 1);
   }
 }
